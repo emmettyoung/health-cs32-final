@@ -1,4 +1,4 @@
-## CS0320 Fall 2024 Mock Gear Up 🍁
+## CS0320 Spring 2025 Mock Gear Up 🌷
 
 **In this repo, you will find:**
 
