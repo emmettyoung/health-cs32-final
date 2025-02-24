@@ -22,7 +22,7 @@ interface SelectHistoryProps {
 export function SelectHistory(props: SelectHistoryProps) {
   return (
     <div className="select-history" aria-label="select history">
-      {/* TODO 2: add to the JSX to display your text in the main output area!  */}
+      {/* TODO 4: add to the JSX to display your text in the main output area!  */}
     </div>
   );
 }

@@ -33,7 +33,7 @@ export interface Tab {
  *
  */
 export function Select() {
-  // TODO 2: set-up a React useState variable here to update the main display area once you click the submit button,
+  // TODO 4: set-up a React useState variable here to update the main display area once you click the submit button,
   //    then, pass this variable in as a prop to SelectHistory below and uncomment it
 
   return (

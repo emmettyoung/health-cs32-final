@@ -30,6 +30,10 @@ export function SelectInput() {
             on the main output area
             (Hint: use the setHistory useState set function) 
         */}
+      {/* TODO 4: Modify the button to display the current dropdown option as text
+            on the main output area
+            (Hint: use the setHistory useState set function) 
+        */}
     </div>
   );
 }
