@@ -3,7 +3,8 @@ import { useState } from "react";
 import { HomePage } from "./homepage";
 import { Progress } from "./progress";
 import { Feedback } from "./feedback";
-import { Home, ChartNoAxesCombined, MessageSquareText } from "lucide-react";
+import { Home, ChartNoAxesCombined, MessageSquareText, ChartSpline } from "lucide-react";
+import { Chart } from "chart.js";
 
 /**
  * Controls overall view of the website.
@@ -47,6 +48,13 @@ export function Select() {
           >
             <ChartNoAxesCombined size={50}/>
             <span className="text-lg">Progress</span>
+          </li>
+          <li
+            className="flex items-center gap-4 cursor-pointer p-3 hover:bg-gray-200 rounded"
+            onClick={handleProgressClick}
+          >
+            <ChartSpline size={50}/>
+            <span className="text-lg">Personal Graphs</span>
           </li>
           <li
             className="flex items-center gap-4 cursor-pointer p-3 hover:bg-gray-200 rounded"

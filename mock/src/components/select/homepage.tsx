@@ -15,34 +15,64 @@ export function HomePage() {
     // <button onClick={() => handleSubmitInformation()}>Save Information</button>
     return (
         <div className="homepage-container">
-            Track Your Daily Diet!
-            <p>Enter Your Daily Calories</p>
-            <ControlledInput
-            value={calorieString}
-            setValue={setCalorie}
-            ariaLabel="calorie input"
-            ref={searchRef}/>
-            
-            <p>Enter Your Daily Carbohydrates</p>
-            <ControlledInput
-            value={carbString}
-            setValue={setCarb}
-            ariaLabel="carb input"
-            ref={searchRef}/>
-            
-            <p>Enter Your Daily Sugars</p>
-            <ControlledInput
-            value={sugarString}
-            setValue={setSugar}
-            ariaLabel="sugar input"
-            ref={searchRef}/>
-            
-            <p>Enter Your Daily Protein</p>
-            <ControlledInput
-            value={proteinString}
-            setValue={setProtein}
-            ariaLabel="protein input"
-            ref={searchRef}/>
+            <h1 className="homepage-header">Track Your Daily Diet!</h1>
+            <div className="input-row">
+                <div className="input-box">
+                    <p>Calories</p>
+                    <ControlledInput
+                        value={calorieString}
+                        setValue={setCalorie}
+                        ariaLabel="calorie input"
+                        ref={searchRef}
+                    />
+                </div>
+                <div className="input-box">
+                    <p>Carbohydrates</p>
+                    <ControlledInput
+                        value={carbString}
+                        setValue={setCarb}
+                        ariaLabel="carb input"
+                        ref={searchRef}
+                    />
+                </div>
+                <div className="input-box">
+                    <p>Sugars</p>
+                    <ControlledInput
+                        value={sugarString}
+                        setValue={setSugar}
+                        ariaLabel="sugar input"
+                        ref={searchRef}
+                    />
+                </div>
+                <div className="input-box">
+                    <p>Protein</p>
+                    <ControlledInput
+                        value={proteinString}
+                        setValue={setProtein}
+                        ariaLabel="protein input"
+                        ref={searchRef}
+                    />
+                </div>
+                <div className="input-box">
+                    <p>Weight</p>
+                    <ControlledInput
+                        value={carbString}
+                        setValue={setCarb}
+                        ariaLabel="carb input"
+                        ref={searchRef}
+                    />
+                </div>
+                <div className="input-box">
+                    <p>Height</p>
+                    <ControlledInput
+                        value={carbString}
+                        setValue={setCarb}
+                        ariaLabel="carb input"
+                        ref={searchRef}
+                    />
+                </div>
+            </div>
         </div>
-    )
+    );
+    
 }
